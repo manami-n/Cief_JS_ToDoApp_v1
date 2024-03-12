@@ -29,6 +29,14 @@ h1{
 }
 
 /*  SECTIONS */
+
+section{
+    margin: 2rem auto;
+}
+
+
+/*  FORM  */
+
 #form{
     display: grid;
     grid-template-columns: 7fr 3fr;
@@ -54,6 +62,8 @@ h1{
     background-color: var(--color-pendiente);
     color: white;
 }
+
+/*  FORM  */
 
 .lista-tareas{
     display: flex;
